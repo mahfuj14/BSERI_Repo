@@ -2,7 +2,7 @@
 import { useParams, Link } from 'react-router-dom';
 //import { newsData } from '../data/newsData'; // Your news data source
 import NavbarMenus from "/src/components/NavbarMenus";
-import Footer from "/src/components/footer.jsx";
+import Footer from "/src/components/Footer.jsx";
 import { useState } from 'react';
 import image1 from "/src/assets/newssection/560245426_122129642888960165_4937549103345471782_n.jpg";
 import image2 from "/src/assets/newssection/558978402_122129403206960165_7646942842344773211_n.jpg";
