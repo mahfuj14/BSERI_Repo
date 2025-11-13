@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavbarMenus from '/src/components/NavbarMenus';
-import Footer from '/src/components/footer.jsx';
+import Footer from '/src/components/Footer.jsx';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
