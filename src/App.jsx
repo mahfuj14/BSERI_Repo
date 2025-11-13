@@ -25,7 +25,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <Router basename="/BSERI_Project">
+    <Router basename="/">
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="committee" element={<ExecutiveMembers />} /> 
