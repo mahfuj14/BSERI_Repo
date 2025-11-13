@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import {Link} from "react-router-dom"
-import Typed from "react-typed";
+import {ReactTyped} from "react-typed";
 import NavbarMenus from "./NavbarMenus"; // adjust the path if needed
 
 
@@ -58,7 +58,7 @@ const Navbar = () => {
             <p className="md:text-4xl sm:text-3xl text-xl font-bold py-2 whitespace-nowrap">
               <span className="text-yellow-400">Bangladesh</span> Society for <span className="text-yellow-400"> Ecological Research</span> Initiative
             </p>
-            <Typed
+            <ReactTyped
               className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-caribbean-green"
               strings={["BSERI", "BSERI", "BSERI"]}
               typeSpeed={120}
