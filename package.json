@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -r https://github.com/mahfuj14/BSERI_Project.git"
-
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -21,7 +20,7 @@
     "react-icons": "^4.8.0",
     "react-router-dom": "^7.9.4",
     "react-slick": "^0.31.0",
-    "react-typed": "^1.2.0",
+    "react-typed": "^2.0.12",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
