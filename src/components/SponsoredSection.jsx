@@ -66,7 +66,7 @@ const SponsoredSection = () => {
 
   return (
     <section className="bg-gray-100 py-10">
-      <div className="max-w-screen-xl mx-auto px-4 text-center">
+      <div className="max-w-screen-xl mx-auto px-4 text-center overflow-x-hidden">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8">
           Partnered With
         </h2>

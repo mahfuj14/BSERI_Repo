@@ -7,10 +7,7 @@ const NavbarMenus = ({ showNav, handleNav }) => {
   return (
     <div className="relative flex justify-between items-center h-24 max-w-screen-xl mx-auto px-4 text-white z-10">
       {/* Logo */}
-      <img
-        src={logo}
-        alt="Logo"
-        className="h-14 sm:h-12 md:h-28 w-auto object-contain cursor-pointer transition-all duration-300"
+      <img src={logo} alt="Logo" className="h-14 sm:h-12 md:h-28 w-auto object-contain cursor-pointer transition-all duration-300"
       />
 
       {/* Desktop Menu */}
@@ -30,8 +27,7 @@ const NavbarMenus = ({ showNav, handleNav }) => {
 
         {/* Login Button */}
         <li className="ml-4">
-          <Link
-            to="/login"
+          <Link  to="/login"
             className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border-2 border-green-400 hover:border-green-300"
           >
             Login
@@ -62,8 +58,7 @@ const NavbarMenus = ({ showNav, handleNav }) => {
         >
           <Link to="/committee">Committee</Link>
         </li>
-        <li
-          className="p-4 cursor-pointer hover:text-caribbean-green transition-colors duration-300"
+        <li className="p-4 cursor-pointer hover:text-caribbean-green transition-colors duration-300"
           onClick={handleNav}
         >
           Resources
