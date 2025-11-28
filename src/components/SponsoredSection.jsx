@@ -12,7 +12,7 @@ import logo5 from "/src/assets/sponsor/unidologo.png";
 const sponsors = [
   {
     name: "Dhaka University",
-    logo: logo1,
+     logo: logo1,
     link: "https://www.du.ac.bd/",
   },
   {

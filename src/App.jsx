@@ -13,6 +13,8 @@ import AboutMissionVision from "./components/AboutMissionVision";
 import SponsoredSection from "./components/SponsoredSection";
 import NewsDetails from "./NewsDetails";
 import LoginPage from "./LoginPage";
+import NewsFrontPage from "./NewsFrontPage";
+import ChairmanDetails from "./ChairmanDetails";
 
 //import Home from "./pages/Home";
 //import Committee from "./pages/Committee";
@@ -31,6 +33,9 @@ function App() {
         <Route path="committee" element={<ExecutiveMembers />} /> 
         <Route path="/news/:id" element={<NewsDetails />} />  
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/newsFrontpage" element={<NewsFrontPage />} />
+        <Route path="/chairmanDetails" element={<ChairmanDetails />} />
+
         {/* <Route path="/about" element={<About />} /> */}
         {/* Add other routes as needed */}
       </Routes>
